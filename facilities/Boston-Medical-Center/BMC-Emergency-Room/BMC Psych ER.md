@@ -6,7 +6,7 @@ Parent: "[[BMC Emergency Room]]"
 ---
 Labeled "PES"
 ## Directions
-> [!INFO]- **Via [[../BMC ER Entrance|ER Ambulance Bay]]** (easiest/safest)
+> [!INFO]- **Via [ER Ambulance Bay](../BMC%20ER%20Entrance.md)** (easiest/safest)
 > 1. Park in ambulance bay
 > 2. Enter through doors (security will open for you)
 > 3. Walk through triage area
@@ -17,8 +17,8 @@ Labeled "PES"
 > 8. Turn right, proceed to "PES" (on left)
 > 9. Ensure unit is safe to enter (windows). Badge on opposite wall to open doors.
 
-> [!INFO]- **Via [[../BMC Non-Emergent Ambulance Entrance|BMC Non-Emergent Ambulance Entrance]]**
-> 1. Park in [[../BMC Non-Emergent Ambulance Entrance|BMC Non-Emergent Ambulance Entrance]], follow [[../BMC Non-Emergent Ambulance Entrance#Directions|directions]] to badge in
+> [!INFO]- **Via [BMC Non-Emergent Ambulance Entrance](../BMC%20Non-Emergent%20Ambulance%20Entrance.md)**
+> 1. Park in [BMC Non-Emergent Ambulance Entrance](../BMC%20Non-Emergent%20Ambulance%20Entrance.md), follow [directions](../BMC%20Non-Emergent%20Ambulance%20Entrance.md#Directions) to badge in
 > 2. Cross the skybridge and continue across Menino 3 to Menino Building Elevators
 > 3. Take Menino Elevator to 1st floor
 > 4. Exit elevator and proceed through the walkway that does not have a closed door

@@ -119,6 +119,7 @@ plugins:
       tags_file: hidden/tags.md
   - callouts
   - glightbox
+  - same-dir
 hooks:
   - overrides/hooks/on_page_markdown.py
   - overrides/hooks/on_env.py

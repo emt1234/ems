@@ -18,8 +18,8 @@
       "name": ""
     },
     "otherRepo": [],
-    "verifiedRepo": false,
-    "rateLimit": 0
+    "verifiedRepo": true,
+    "rateLimit": 4599
   },
   "upload": {
     "behavior": "obsidian",
@@ -31,10 +31,16 @@
       "key": "slug"
     },
     "replaceTitle": [],
-    "replacePath": [],
+    "replacePath": [
+      {
+        "regex": "/[^a-zA-Z0-9\\/]/g",
+        "replacement": "-",
+        "type": "path"
+      }
+    ],
     "autoclean": {
       "includeAttachments": true,
-      "enable": true,
+      "enable": false,
       "excluded": [
         "_assets",
         "_static",
@@ -113,5 +119,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "upload-configuration"
+  "tabsId": "github-configuration"
 }

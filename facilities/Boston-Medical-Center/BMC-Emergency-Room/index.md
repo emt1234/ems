@@ -4,6 +4,7 @@ tags:
   - Unit
   - ER
 Parent: "[[Boston Medical Center]]"
+order: "1"
 title: BMC Emergency Room
 ---
 ## Sections

@@ -1,0 +1,26 @@
+#!/bin/bash
+
+declare -a DIRS=("facilities" "medical" "organizations")
+
+MAIN_BRANCH="main"
+STAGING="staging"
+
+# Make sure we're starting on 'main'
+git checkout "$MAIN_BRANCH"
+
+# Delete and reset the current 'staging' branch
+git branch -d "$STAGING"
+git checkout -b "$STAGING"
+
+# Remove each submodule (content will be inserted via Envelopee)
+for i in "${DIRS[@]}"
+do
+    git rm "$i"
+done
+git commit -m "[skip ci] Remove content"
+git push --force -u origin "$STAGING"
+
+# Switch back to 'main'
+git checkout "$MAIN_BRANCH"
+
+echo "'$STAGING' branch reset. In Obsidian, make sure you trigger a new Envelopee upload"

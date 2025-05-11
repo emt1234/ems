@@ -1,1 +1,9 @@
-{}
+{
+  "userIgnoreFilters": [
+    "/[aA][tT][tT][aA][cC][hH][mM][eE][nN][tT][sS]/",
+    "/_[aA][sS][sS][eE][tT][sS]/",
+    "/_[sS][tT][aA][tT][iI][cC]/",
+    "/[hH][iI][dD][dD][eE][nN]/",
+    "/[oO][vV][eE][rR][rR][iI][dD][eE][sS]/"
+  ]
+}

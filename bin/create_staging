@@ -15,7 +15,7 @@ git checkout -b "$STAGING"
 # Remove each submodule (content will be inserted via Envelopee)
 for i in "${DIRS[@]}"
 do
-    git rm "$i"
+    git rm -r "$i/*"
 done
 git commit -m "[skip ci] Remove content"
 git push --force -u origin "$STAGING"

@@ -1,6 +1,5 @@
 ---
 title: BMC Identification Office
-slug: id-office
 ---
 Located inside the [Boston Medical Center Garage, 710 Albany St, Boston, MA 02118](https://maps.app.goo.gl/ovzJYS26cZB4QeD68). Provides [[BMC EMS Badge]].
 

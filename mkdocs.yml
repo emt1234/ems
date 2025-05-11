@@ -3,7 +3,7 @@ site_description: Notes for EMS Professionals
 site_url: https://emt1234.github.io/ems/
 site_author: emt1234
 repo_url: https://github.com/emt1234/ems
-edit_uri: edit/main/docs/
+edit_uri: edit/main/
 
 docs_dir: '.'
 

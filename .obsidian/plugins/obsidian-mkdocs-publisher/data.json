@@ -30,7 +30,13 @@
       "enable": true,
       "key": "slug"
     },
-    "replaceTitle": [],
+    "replaceTitle": [
+      {
+        "regex": "/[^a-zA-Z0-9]/g",
+        "replacement": "-",
+        "type": "title"
+      }
+    ],
     "replacePath": [
       {
         "regex": "/[^a-zA-Z0-9\\/]/g",
@@ -74,7 +80,7 @@
     "links": {
       "internal": true,
       "unshared": false,
-      "wiki": false,
+      "wiki": true,
       "slugify": "disable",
       "unlink": false,
       "relativePath": true,

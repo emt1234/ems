@@ -4,11 +4,16 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - staging
     paths: 
       - 'README.md'
+      - '_assets/**'
+      - '_static/**'
       - 'overrides/**'
-      - 'docs/**'
+      - 'hidden/**'
+      - 'facilities/**'
+      - 'medical/**'
+      - 'orgs/**'
       - 'mkdocs.yml'
       - 'uv.lock'
   repository_dispatch:

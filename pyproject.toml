@@ -18,6 +18,7 @@ dependencies = [
     "mkdocs-meta-descriptions-plugin",
     "mkdocs-glightbox",
     "mkdocs-obsidian-links",
+    "mkdocs-same-dir",
     "beautifulsoup4",
     "babel"
 ]

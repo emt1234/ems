@@ -5,6 +5,8 @@ site_author: emt1234
 repo_url: https://github.com/emt1234/ems
 edit_uri: edit/main/docs/
 
+docs_dir: '.'
+
 theme:
     name: 'material'
     # TODO: create custom logo/favicon

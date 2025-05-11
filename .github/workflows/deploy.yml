@@ -7,13 +7,14 @@ on:
       - staging
     paths: 
       - 'README.md'
+      - 'index.md'
       - '_assets/**'
       - '_static/**'
       - 'overrides/**'
       - 'hidden/**'
       - 'facilities/**'
       - 'medical/**'
-      - 'orgs/**'
+      - 'organizations/**'
       - 'mkdocs.yml'
       - 'uv.lock'
   repository_dispatch:

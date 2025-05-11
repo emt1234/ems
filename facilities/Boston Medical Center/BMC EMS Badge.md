@@ -1,11 +1,11 @@
-Grants access to virtually all doors at [[Boston Medical Center]].
+Grants access to virtually all doors at [[./index|Boston Medical Center]].
 
 ## Obtaining
-Badges can be obtained from the [[BMC Identification Office]].
+Badges can be obtained from the [[./id-office|id-office]].
 
 You will need:
 - Proof of EMS employment (uniform/badge should count)
 - A photo ID
 
 ## Replacing IDs
-IDs may be replaced, at a cost, at the [[BMC Identification Office]].
+IDs may be replaced, at a cost, at the [[./id-office|id-office]].

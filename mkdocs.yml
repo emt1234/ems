@@ -1,40 +1,46 @@
-site_name: $site_name # Change this to your site name
-site_description: $site_description
-site_url: $site_url # Change this to your site URL
-site_author: $site_author
+site_name: EMS Notebook
+site_description: Notes for EMS Professionals
+site_url: https://emt1234.github.io/ems/
+site_author: emt1234
+repo_url: https://github.com/emt1234/ems
+edit_uri: edit/main/docs/
 
 theme:
     name: 'material'
-    logo: _assets/meta/logo.png
-    favicon: _assets/meta/favicons.png
+    # TODO: create custom logo/favicon
+    # logo: _assets/meta/logo.png
+    # favicon: _assets/meta/favicons.png
     custom_dir: overrides
     font:
         text: Karla
         code: Ubuntu Mono
-    language: $language
+    language: en
     palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-night
-        name: Passer au mode sombre
+        name: Switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue grey
-      accent: light blue
+      primary: deep purple
+      accent: deep purple
       toggle:
         icon: material/weather-sunny
-        name: Passer en mode clair
+        name: Switch to light mode
     features:
+        - content.action.edit
         - navigation.indexes
         - navigation.top
         - navigation.tabs
         - navigation.tabs.sticky
+        - navigation.path
+        - navigation.instant.preview
         - search.suggest
         - search.highlight
 # Extensions
@@ -90,14 +96,14 @@ plugins:
   - search
   - meta-descriptions
   - awesome-pages
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      post_readtime_words_per_minute: 300
+  # - blog:
+  #     blog_dir: blog
+  #     blog_toc: true
+  #     post_readtime_words_per_minute: 300
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
+      locale: en
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
   - ezlinks:
@@ -108,7 +114,7 @@ plugins:
   - custom-attributes:
       file: '_static/css/custom_attributes.css'
   - tags:
-      tags_file: tags.md
+      tags_file: hidden/tags.md
   - callouts
   - glightbox
 hooks:
@@ -128,13 +134,14 @@ extra_css:
     - _static/css/customization.css
     - https://cdn.jsdelivr.net/gh/Enveloppe/_static@refs/heads/master/dist/styles.css
 extra:
-  SEO: '_assets/meta/logo.png'
-  comments: $comments
+  # TODO: replace 'SEO' with custom logo
+  # SEO: '_assets/meta/logo.png'
+  comments: false
   attachments: '_assets/img/'
-  no-auto-h1: $auto_h1
+  no-auto-h1: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Enveloppe/
+      link: https://github.com/emt1234/ems
   blog_list:
     pagination: true
     pagination_message: true

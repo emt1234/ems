@@ -30,18 +30,21 @@
       "enable": true,
       "key": "slug"
     },
-    "replaceTitle": [
-      {
-        "regex": "/[^a-zA-Z0-9]/",
-        "replacement": "-",
-        "type": "title"
-      }
-    ],
+    "replaceTitle": [],
     "replacePath": [],
     "autoclean": {
       "includeAttachments": true,
-      "enable": false,
-      "excluded": []
+      "enable": true,
+      "excluded": [
+        "_assets",
+        "_static",
+        ".github",
+        "hidden",
+        "overrides",
+        "mkdocs.yml",
+        "pyproject.toml",
+        "uv.lock"
+      ]
     },
     "folderNote": {
       "enable": true,
@@ -110,5 +113,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "embed-configuration"
+  "tabsId": "upload-configuration"
 }

@@ -1,0 +1,3 @@
+---
+slug: emergency-department
+---

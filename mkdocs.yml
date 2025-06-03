@@ -22,6 +22,7 @@ plugins:
   - embed_file
   - awesome-nav
   - obsidian-bridge
+  - callouts
 
 hooks:
   - hooks/parse-file-meta.py

@@ -1,0 +1,1 @@
+**Baystate Health** is an integrated healthcare system headquartered in Western Massachusetts.

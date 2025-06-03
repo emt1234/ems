@@ -1,0 +1,32 @@
+site_name: EMS Notebook
+site_url: https://emt1234.github.io/ems
+
+docs_dir: .
+
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+
+plugins:
+  - meta
+  - search
+  - same-dir
+  - awesome-nav
+  - obsidian-bridge
+
+hooks:
+  - hooks/parse-file-meta.py
+  - hooks/folder-notes.py
+  - hooks/clean-slugs.py
+
+exclude_docs: |
+  .pub_min_cache/
+  .venv/

@@ -1,0 +1,3 @@
+[submodule "pin-codes"]
+	path = pin-codes
+	url = git@emt.github.com:emt1234/door-codes.git

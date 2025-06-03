@@ -1,0 +1,4 @@
+nav:
+  - Facilities: Facilities.md
+  - All Facilities:
+    - "*"

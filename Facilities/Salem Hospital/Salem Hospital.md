@@ -1,5 +1,9 @@
 ---
 slug: salem-hospital-ma
+tags:
+  - Hospital
+  - Facility
+  - Trauma3
 ---
 
 > [!disambiguation] Additional Facilities

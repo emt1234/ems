@@ -3,7 +3,7 @@ title: Emergency Department
 campus: "[[Salem Hospital]]"
 tags:
   - Emergency_Department
-  - Unit
+  - Department
   - Trauma3
 ---
 # Emergency Department

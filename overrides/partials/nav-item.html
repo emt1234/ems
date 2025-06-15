@@ -1,6 +1,19 @@
 {#-
   This file was automatically generated - do not edit
 -#}
+{% macro render_title_text(nav_item, ref) %}
+  {% if nav_item.file and nav_item.file.name and nav_item.file.name != ref.title %}
+    {# if someone's taken the time to set a custom title in the nav, use that title (ignore any file metadata, if set) #}
+    {{ ref.title }}
+  {% elif nav_item.meta and nav_item.meta.title %}
+    {# if the file has a meta 'title', use that #}
+    {# TODO: use a configurable property?? #}
+    {{ nav_item.meta.title }}
+  {% else %}
+    {# default action, use title from nav #}
+    {{ ref.title }}
+  {% endif %}
+{% endmacro %}
 {% macro render_status(nav_item, type) %}
   {% set class = "md-status md-status--" ~ type %}
   {% if config.extra.status and config.extra.status[type] %}
@@ -16,7 +29,7 @@
     {% include ".icons/" ~ nav_item.meta.icon ~ ".svg" %}
   {% endif %}
   <span class="md-ellipsis">
-    {{ ref.title }}
+    {{ render_title_text(nav_item, ref) }}
     {% if nav_item.meta and nav_item.meta.subtitle %}
       <br>
       <small>{{ nav_item.meta.subtitle }}</small>

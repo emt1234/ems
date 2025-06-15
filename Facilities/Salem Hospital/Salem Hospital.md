@@ -1,5 +1,9 @@
 ---
 slug: salem-hospital-ma
+tags:
+  - Hospital
+  - Facility
+  - Trauma3
 ---
 
 > [!disambiguation] Additional Facilities
@@ -7,6 +11,12 @@ slug: salem-hospital-ma
 > not to be confused with the hospital with the same name in Salem, Oregon.
 The **Salem Hospital** (formerly known as the **North Shore Medical Center**) is a hospital in Salem, Massachusetts, part of the [[Mass General Brigham]] network.
 
-![[codes/salem-hospital-ma#access codes]]
+## Access Codes
 
-(If codes do not appear, view [[codes/salem-hospital-ma]])
+> [!quote]+ Access Codes
+> ![[codes/salem-hospital-ma#access codes]]
+> (If codes do not appear, view [[codes/salem-hospital-ma]])
+
+## EMS Agencies
+
+[[Brewster Ambulance Service]] is the sole EMS provider for Salem Hospital.

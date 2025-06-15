@@ -19,15 +19,18 @@ plugins:
   - meta
   - search
   - same-dir
-  - embed_file
+  - embed_file:
+      callouts: true
   - awesome-nav
   - obsidian-bridge
   - callouts
 
 hooks:
+  - hooks/root-nav-locate.py
   - hooks/parse-file-meta.py
   - hooks/folder-notes.py
   - hooks/clean-slugs.py
+  - hooks/root-nav-insert.py
 
 exclude_docs: |
   .pub_min_cache/

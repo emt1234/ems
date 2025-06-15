@@ -6,6 +6,8 @@ tags:
   - Emergency_Department
   - Department
   - Trauma3
+aliases:
+  - Emergency Department
 ---
 # Emergency Department
 

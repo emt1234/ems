@@ -5,6 +5,8 @@ tags:
   - Emergency_Department
   - Department
   - Trauma1
+aliases:
+  - Emergency Department
 ---
 The Emergency Department at [[Boston Medical Center]] is a [[Level I Trauma Center]] in the South End of Boston, Massachusetts.
 

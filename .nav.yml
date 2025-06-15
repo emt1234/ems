@@ -1,5 +1,8 @@
 nav:
-  - Home: index.md
+  - Home:
+    - index.md
+    # - About
+    # - Usage
   - Facilities
   - Organizations
   - "*"

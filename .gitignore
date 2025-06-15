@@ -176,3 +176,4 @@ cython_debug/
 .obsidian/workspace.json
 .obsidian/plugins/*/*
 !.obsidian/plugins/*/data.json
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json

@@ -1,4 +1,5 @@
 ---
+slug: emergency-department
 title: Emergency Department
 campus: "[[Salem Hospital]]"
 tags:
